@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="WKY-PMANAGEMENT"
+  id="myeclipse.1385606808609"
+  context-root="/WKY-PMANAGEMENT"
+  j2ee-spec="5.0"
+  archive="WKY-PMANAGEMENT.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

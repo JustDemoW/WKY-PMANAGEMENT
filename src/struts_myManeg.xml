@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+  <package name="myManeg-default" namespace="/myManeg" extends="PM-default">
+  <!-- 指定默认调用的拦截器，覆盖原来的defaultStack -->
+  	<default-interceptor-ref name="PMInterceptorStack"></default-interceptor-ref>
+  	<action name="getMyAccountInfo" class="com.sys.pm.action.netAccount.PMSysFindAccountinfoAction" method="findaccInfo">
+  		<result name="success" type="json">
+  			<param name="root">map</param>
+  		</result>
+  		<result name="notLogin" type='redirect'>
+  			/user/notLogin
+  		</result>
+  	</action>
+  	<action name="saveMyAccountInfo" class="com.sys.pm.action.netAccount.PMSysActionAccountinfoAction" method="saveaccInfo">
+  		<result name="success" type="json">
+  		</result>
+  		<result name="notLogin" type='redirect'>
+  			/user/notLogin
+  		</result>
+  	</action>
+  </package>
+</struts>

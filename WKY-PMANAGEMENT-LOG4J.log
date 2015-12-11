@@ -1,0 +1,72 @@
+ERROR main org.hibernate.util.JDBCExceptionReporter - ORA-00942: 表或视图不存在
+
+ERROR main com.sys.pm.po.PmWkyUserDAO - find all failed
+org.hibernate.exception.SQLGrammarException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:67)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
+	at org.hibernate.loader.Loader.doList(Loader.java:2220)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2108)
+	at org.hibernate.loader.Loader.list(Loader.java:2103)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:378)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:340)
+	at org.hibernate.engine.query.HQLQueryPlan.performList(HQLQueryPlan.java:172)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1122)
+	at org.hibernate.impl.QueryImpl.list(QueryImpl.java:79)
+	at com.sys.pm.po.PmWkyUserDAO.findAll(PmWkyUserDAO.java:125)
+	at com.sys.pm.action.user.PMUserAction.main(PMUserAction.java:112)
+Caused by: java.sql.SQLException: ORA-00942: 表或视图不存在
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:623)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:181)
+	at oracle.jdbc.driver.T4CPreparedStatement.execute_for_describe(T4CPreparedStatement.java:420)
+	at oracle.jdbc.driver.OracleStatement.execute_maybe_describe(OracleStatement.java:896)
+	at oracle.jdbc.driver.T4CPreparedStatement.execute_maybe_describe(T4CPreparedStatement.java:452)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:986)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2888)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:2929)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:76)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:187)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1791)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:674)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:236)
+	at org.hibernate.loader.Loader.doList(Loader.java:2217)
+	... 9 more
+ERROR main org.hibernate.util.JDBCExceptionReporter - ORA-00942: 表或视图不存在
+
+ERROR main com.sys.pm.po.PmWkyDdDAO - find all failed
+org.hibernate.exception.SQLGrammarException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:67)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
+	at org.hibernate.loader.Loader.doList(Loader.java:2220)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2108)
+	at org.hibernate.loader.Loader.list(Loader.java:2103)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:378)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:340)
+	at org.hibernate.engine.query.HQLQueryPlan.performList(HQLQueryPlan.java:172)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1122)
+	at org.hibernate.impl.QueryImpl.list(QueryImpl.java:79)
+	at com.sys.pm.po.PmWkyDdDAO.findAll(PmWkyDdDAO.java:141)
+	at com.sys.pm.action.user.PMUserAction.main(PMUserAction.java:113)
+Caused by: java.sql.SQLException: ORA-00942: 表或视图不存在
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:623)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:181)
+	at oracle.jdbc.driver.T4CPreparedStatement.execute_for_describe(T4CPreparedStatement.java:420)
+	at oracle.jdbc.driver.OracleStatement.execute_maybe_describe(OracleStatement.java:896)
+	at oracle.jdbc.driver.T4CPreparedStatement.execute_maybe_describe(T4CPreparedStatement.java:452)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:986)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2888)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:2929)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:76)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:187)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1791)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:674)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:236)
+	at org.hibernate.loader.Loader.doList(Loader.java:2217)
+	... 9 more

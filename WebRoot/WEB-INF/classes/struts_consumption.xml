@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+  <package name="consumption-default" namespace="/consumption" extends="PM-default">
+  <!-- 指定默认调用的拦截器，覆盖原来的defaultStack -->
+  	<default-interceptor-ref name="PMInterceptorStack"></default-interceptor-ref>
+  	<action name="getConsumptionInfo" class="com.sys.pm.action.consumption.PMSysGetConsumptionAction" method="findConsumptionInfo">
+  		<result name="success" type="json">
+  			<param name="root">map</param>
+  		</result>
+  		<result name="notLogin" type='redirect'>
+  			/user/notLogin
+  		</result>
+  	</action>
+  	<action name="getConsumptionCharts" class="com.sys.pm.action.consumption.PMSysGetConsumptionAction" method="findChartsStore">
+  		<result name="success" type="json">
+  			<param name="root">map</param>
+  		</result>
+  		<result name="notLogin" type='redirect'>
+  			/user/notLogin
+  		</result>
+  	</action>
+  	<action name="getConsumptionChartsForYear" class="com.sys.pm.action.consumption.PMSysGetConsumptionAction" method="findChartsStoreForYear">
+  		<result name="success" type="json">
+  			<param name="root">map</param>
+  		</result>
+  		<result name="notLogin" type='redirect'>
+  			/user/notLogin
+  		</result>
+  	</action>
+  	<action name="getStatisticsData" class="com.sys.pm.action.consumption.PMSysGetstatisticsDataAction" method="findStatisticsData">
+  		<result name="success" type="json">
+  		</result>
+  		<result name="notLogin" type='redirect'>
+  			/user/notLogin
+  		</result>
+  	</action>
+  	<action name="consumptionInfoAction" class="com.sys.pm.action.consumption.PMSysConsumptionAction" method="doAction">
+  		<result name="success"  type="json">
+  		</result>
+  		<result name="notLogin" type='redirect'>
+  			/user/notLogin
+  		</result>
+  	</action>
+  </package>
+</struts>

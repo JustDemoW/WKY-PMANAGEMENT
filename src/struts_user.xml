@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+  <package name="user-default" namespace="/user" extends="PM-default">
+  <!-- 指定默认调用的拦截器，覆盖原来的defaultStack -->
+  	<default-interceptor-ref name="TransactionInterceptorStack"></default-interceptor-ref>
+  	<action name="*_user" class="com.sys.pm.action.user.PMUserAction" method="{1}">
+  		<result name="success" type="json">
+  		</result>
+  	</action>
+  	<action name="notLogin" class="com.sys.pm.action.user.PMUserNotLoginAction" method="notLogin">
+  		<result name="success" type="json">
+  		</result>
+  	</action>
+  </package>
+</struts>

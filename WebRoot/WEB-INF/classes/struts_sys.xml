@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+  <package name="system-default" namespace="/system" extends="PM-default">
+  	<action name="getModule" class="com.sys.pm.action.system.PMSysGetModuleAction" method="findModule">
+  		<result name="success" type="json">
+  		</result>
+  	</action>
+  	<action name="isLogin" class="com.sys.pm.action.system.PMSysIsLoginAction" method="isLogin">
+  		<result name="success" type="json">
+  		</result>
+  	</action>
+  </package>
+</struts>

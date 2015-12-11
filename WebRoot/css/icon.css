@@ -1,0 +1,453 @@
+@CHARSET "UTF-8";
+
+/*系统按钮样式*/
+.icon-phone {
+	background-image: url(./images/phone.jpg) !important;
+}
+.icon-magnifier {
+	background-image: url(gis/images/magnifier.png) !important;
+}
+.icon-ydhm {
+	background-image: url(./images/yd.png) !important;
+}
+.icon-dxhm {
+	background-image: url(./images/dx.png) !important;
+}
+.icon-lthm {
+	background-image: url(./images/lt.png) !important;
+}
+.icon-save {
+	background-image: url(./images/disk.gif) !important;
+}
+
+.icon-reset {
+	background-image: url(./images/arrow_undo.gif) !important;
+}
+
+.icon-ok {
+	background-image: url(./images/ok16.gif) !important;
+}
+
+.icon-cancel {
+	background-image: url(./images/cancel.gif) !important;
+}
+
+.icon-add {
+	background-image: url(./images/add.gif) !important;
+}
+
+.icon-list {
+	background-image: url(./images/icon-list.png) !important;
+}
+
+.icon-clean {
+	background-image: url(../ygt/images/ygtclear.png) !important;
+}
+
+.icon-edit {
+	background-image: url(./images/table_edit.gif) !important;
+}
+
+.icon-delete {
+	background-image: url(./images/delete.gif) !important;
+}
+
+.icon-find {
+	background-image: url(./images/zoom.gif) !important;
+}
+.icon-fxjg {
+	background-image: url(./images/icon-fxjg.png) !important;
+}
+.icon-zoom {
+	background-image: url(../images/zoom.gif) !important;
+}
+
+.icon-rename {
+	background-image: url(../images/pencil.gif) !important;
+}
+
+.icon-refresh {
+	background-image: url(../images/arrow_refresh.gif) !important;
+}
+
+.icon-reback {
+	background-image: url(../images/icon-reback.png) !important;
+}
+
+.icon-info {
+	background-image: url(./images/information.gif) !important;
+}
+
+.icon-print {
+	background-image: url(../images/printer.png) !important;
+}
+
+.icon-help {
+	background-image: url(../images/help.gif) !important;
+}
+
+.icon-earth {
+	background-image: url(../images/earth.png) !important;
+}
+
+.icon-organisation {
+	background-image: url(../images/chart_organisation.gif) !important;
+}
+
+.icon-expand-all {
+	background-image: url(./images/expand-all.gif) !important;
+}
+
+.icon-collapse-all {
+	background-image: url(./images/collapse-all.gif) !important;
+}
+
+.icon-lock {
+	background-image: url(../images/lock16.gif) !important;
+}
+
+.icon-run {
+	background-image: url(../images/run.gif) !important;
+}
+
+.icon-bar {
+	background-image: url(../images/chart_bar.gif) !important;
+}
+
+.icon-curve {
+	background-image: url(../images/chart_curve.gif) !important;
+}
+
+.icon-pie {
+	background-image: url(../images/chart_pie.gif) !important;
+}
+
+.icon-chat {
+	background-image: url(images/icon_chat.png) !important;
+}
+
+.icon-showMap {
+	background-image: url(../images/icon_showMap.png) !important;
+}
+
+.icon-bkxxdr {
+	background-image: url(../images/icon-bkxxdr.png) !important;
+}
+
+.icon-bkxxlb {
+	background-image: url(../images/icon-bkxxlb.png) !important;
+}
+
+.icon-bkxxwh {
+	background-image: url(../images/icon-bkxxwh.png) !important;
+}
+
+.icon-bkbj {
+	background-image: url(../images/icon-bkbj.png) !important;
+}
+
+.icon-fxjg {
+	background-image: url(../images/icon-fxjg.png) !important;
+}
+
+.icon-cbxxwh {
+	background-image: url(../images/icon-cbxxwh.png) !important;
+}
+
+.icon-scbazjb {
+	background-image: url(../images/icon-scbazjb.png) !important;
+}
+
+.icon-sccaxx {
+	background-image: url(../images/icon-sccaxx.png) !important;
+}
+
+.icon-sccbjl {
+	background-image: url(../images/icon-sccbjl.png) !important;
+}
+
+.icon-xlajgj {
+	background-image: url(../images/icon-xlajgj.png) !important;
+}
+
+.icon-sys-user {
+	background-image: url(../images/icon-sys-user.png) !important;
+}
+
+.icon-dfkyj {
+	background-image: url(../images/icon-dfkyj.png) !important;
+}
+
+.icon-yjcx {
+	background-image: url(../images/icon-yjcx.png) !important;
+}
+
+.icon-hsarea {
+	background-image: url(../images/icon-hsarea.png) !important;
+}
+
+.icon-hsclear {
+	background-image: url(../images/icon-hsclear.png) !important;
+}
+/*开始菜单*/
+.icon-start-fxyp {
+	background-image: url(images/start-fxyp.png) !important;
+}
+
+.icon-start-fzjc {
+	background-image: url(images/start-fzjc.png) !important;
+}
+
+.icon-start-gngl {
+	background-image: url(images/start-gngl.png) !important;
+}
+
+.icon-start-khgl {
+	background-image: url(images/start-khgl.png) !important;
+}
+
+.icon-start-xfbj {
+	background-image: url(images/start-xfbj.png) !important;
+}
+
+.icon-start-xtgl {
+	background-image: url(images/start-xtgl.png) !important;
+}
+
+.icon-start-zhdd {
+	background-image: url(images/start-zhdd.png) !important;
+}
+
+.icon-query {
+	background-image: url(images/query.png) !important;
+}
+
+.filed-label {
+	background-color: #FFFFFF;
+	border: 0px solid;
+	padding-left: 20px;
+	font-color: #000000;
+}
+/*
+.disabled-label {
+	border: 0px solid;	
+	font-color:#000000;
+}
+*/
+/*grid按钮样式*/
+.icon-table {
+	background-image: url(./images/table.gif) !important;
+}
+
+.icon-table-add {
+	background-image: url(../images/table_add.gif) !important;
+}
+
+.icon-table-edit {
+	background-image: url(../images/table_edit.gif) !important;
+}
+
+.icon-table-delete {
+	background-image: url(../images/table_delete.gif) !important;
+}
+
+.icon-table-save {
+	background-image: url(../images/table_save.gif) !important;
+}
+
+/*用户模块按钮样式*/
+.icon-user {
+	background-image: url(./images/user.gif) !important;
+}
+
+.icon-user-add {
+	background-image: url(../images/user_add.gif) !important;
+}
+
+.icon-user-edit {
+	background-image: url(../images/user_edit.gif) !important;
+}
+
+.icon-user-delete {
+	background-image: url(../images/user_delete.gif) !important;
+}
+
+/*部门模块按钮样式*/
+.icon-group {
+	background-image: url(../images/group.gif) !important;
+}
+
+.icon-group-add {
+	background-image: url(../images/group_add.gif) !important;
+}
+
+.icon-group-edit {
+	background-image: url(../images/group_edit.gif) !important;
+}
+
+.icon-group-delete {
+	background-image: url(../images/group_delete.gif) !important;
+}
+
+/*登录输入框*/
+.user {
+	background: url(../../images/user.gif) no-repeat 1px 2px;
+}
+
+.key {
+	background: url(../../images/key.gif) no-repeat 1px 2px;
+}
+
+.label {
+	background: url(../../images/exclamation.gif) no-repeat 1px 2px;
+	border: 0px solid #FFFFFF;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.meter {
+	border: 0px solid #FFFFFF;
+	padding-left: 20px
+}
+
+.key,.user {
+	background-color: #FFFFFF;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #000033;
+}
+
+/*辅助决策*/
+.assDecision-query-icon {
+	background-image: url(./images/query.png) !important;
+}
+
+.assDecision-contrastMap-icon {
+	background-image: url(images/contrastMap.png) !important;
+}
+
+.assDecision-contrastTable-icon {
+	background-image: url(images/contrastTable.png) !important;
+}
+
+.assWindow-icon {
+	background-image: url(images/assDecision.png) !important;
+}
+
+.assDecision-shortcut-icon {
+	background-image: url(images/fzjc.png) !important;
+}
+
+.assDecision-icon {
+	background-image: url(images/assDecision.png) !important;
+}
+
+.assDecision-dbt-xh {
+	background: transparent url(images/xh.gif) no-repeat;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+}
+
+.assDecision-dbt-xh1 {
+	background-position: 0 0;
+}
+
+.assDecision-dbt-xh2 {
+	background-position: -16px 0;
+}
+
+.assDecision-dbt-xh3 {
+	background-position: -32px 0;
+}
+
+.assDecision-dbt-xh4 {
+	background-position: -48px 0;
+}
+
+.assDecision-dbt-dateMsg {
+	position: relative;
+	margin-left: 30px;
+	margin-top: -16px;
+}
+
+.assDecision-dbt-msg {
+	position: relative;
+	margin-left: 120px;
+	margin-top: -16px;
+	padding-top: 4px;
+}
+/*辅助决策*/
+
+/*wangkangyu*/
+ .icon-addPic{
+ 	background-image: url(images/picture_add.png) !important;
+ }
+ 
+ .icon-delPic{
+ 	background-image: url(images/picture_delete.png) !important;
+ }
+ 
+ .icon-editPic{
+ 	background-image: url(images/picture_edit.png) !important;
+ }
+ 
+ .icon-savePic{
+ 	background-image: url(images/picture_save.png) !important;
+ }
+ 
+ .icon-pics{
+ 	background-image: url(images/pictures.png) !important;
+ }
+ 
+ .icon-pic{
+ 	background-image: url(images/picture.png) !important;
+ }
+ 
+ .icon-addFilm{
+ 	background-image: url(images/film_add.png) !important;
+ }
+ .icon-delFilm{
+ 	background-image: url(images/film_delete.png) !important;
+ }
+ .icon-editFilm{
+ 	background-image: url(images/film_edit.png) !important;
+ }
+ .icon-saveFilm{
+ 	background-image: url(images/film_save.png) !important;
+ }
+ .icon-film{
+ 	background-image: url(images/film.png) !important;
+ }
+ .icon-casegl{
+ 	background-image: url(images/casegl.png) !important;
+ }
+  .icon-gold{
+ 	background-image: url(images/award_star_gold_1.png) !important;
+ }
+ .icon-jlsh{
+ 	background-image: url(images/jlsh.png) !important;
+ }
+ .icon-jljb{
+ 	background-image: url(images/jljb.png) !important;
+ }
+ .icon-xscd{
+ 	background-image: url(images/tiaoxu.png) !important;
+ }
+ .icon-rightGo{
+ 	background-image: url(images/arrow_right.png) !important;
+ }
+ .icon-car{
+ 	background-image: url(images/car.png) !important;
+ }
+ .icon-addCar{
+ 	background-image: url(images/car_add.png) !important;
+ }
+ .icon-delCar{
+ 	background-image: url(images/car_delete.png) !important;
+ }
+ .icon-refresh{
+ 	background-image: url(images/arrow_refresh.png) !important;
+ }
+ /*wangkangyu*/

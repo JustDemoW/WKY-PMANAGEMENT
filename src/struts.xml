@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<include file="struts_myManeg.xml"/>
+	<include file="struts_sys.xml"/>
+	<include file="struts_user.xml"/>
+	<include file="struts_consumption.xml"/>
+	<include file="struts_common.xml"/>
+  	<package name="PM-default" extends="json-default">
+  		<interceptors>
+  		<!-- 定义一个拦截器 -->
+  		<interceptor name="PMInterceptor" class="com.sys.pm.interceptor.PMInterceptor"/>
+  		<interceptor name="TransactionInterceptor" class="com.sys.pm.interceptor.PMTransactionInterceptor"/>
+  		<!-- 定义一个拦截器栈transactionStack -->
+  		<interceptor-stack name="PMInterceptorStack">
+  			<interceptor-ref name="PMInterceptor"/>
+  			<interceptor-ref name="defaultStack"/>
+  		</interceptor-stack>
+  		<interceptor-stack name="TransactionInterceptorStack">
+  			<interceptor-ref name="TransactionInterceptor"/>
+  			<interceptor-ref name="defaultStack"/>
+  		</interceptor-stack>
+  	</interceptors>
+  	<global-exception-mappings>
+  		<exception-mapping exception="java.lang.Exception" result="error"></exception-mapping>
+  	</global-exception-mappings>
+  	</package>
+</struts>
